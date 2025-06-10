@@ -58,11 +58,11 @@
       # System configuration
       videoDriver = "nvidia"; # CHOOSE YOUR GPU DRIVERS (nvidia, amdgpu or intel)
       hostname = "NixOS"; # CHOOSE A HOSTNAME HERE
-      locale = "en_GB.UTF-8"; # CHOOSE YOUR LOCALE
-      timezone = "Europe/London"; # CHOOSE YOUR TIMEZONE
-      kbdLayout = "gb"; # CHOOSE YOUR KEYBOARD LAYOUT
-      kbdVariant = "extd"; # CHOOSE YOUR KEYBOARD VARIANT (Can leave empty)
-      consoleKeymap = "uk"; # CHOOSE YOUR CONSOLE KEYMAP (Affects the tty?)
+      locale = "en_US.UTF-8"; # CHOOSE YOUR LOCALE
+      timezone = "Europe/Istanbul"; # CHOOSE YOUR TIMEZONE
+      kbdLayout = "us"; # CHOOSE YOUR KEYBOARD LAYOUT
+      kbdVariant = ""; # CHOOSE YOUR KEYBOARD VARIANT (Can leave empty)
+      consoleKeymap = "us"; # CHOOSE YOUR CONSOLE KEYMAP (Affects the tty?)
     };
 
     systems = [
